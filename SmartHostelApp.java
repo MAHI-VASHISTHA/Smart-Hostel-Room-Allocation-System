@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 // ==========================================
 // 1. DATA MODEL (The Room Object)
 // ==========================================
-class Room {
+class room {
     private String roomNo;
     private int capacity;
     private boolean hasAC;
@@ -334,4 +334,5 @@ tableModel = new DefaultTableModel(cols, 0) {
             new SmartHostelApp().setVisible(true);
         });
     }
+
 }
